@@ -1,0 +1,8 @@
+@import "base/variables", "blocks/hero", "blocks/header", "blocks/buttons";
+* {
+  font-family: "Museo Sans Curl", sans-serif;
+}
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+}
