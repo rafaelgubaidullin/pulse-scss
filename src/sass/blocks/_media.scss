@@ -34,6 +34,15 @@
   .cta-form {
     margin: 0 auto;
   }
+  .carousel {
+    &__slides {
+      width: 500px;
+      img {
+        max-width: 100%;
+        margin: 0 auto;
+      }
+    }
+  }
 }
 
 @media (max-width: 767px) {
@@ -102,6 +111,11 @@
     &__title {
       font-size: 25px;
       margin-bottom: 40px;
+    }
+  }
+  .carousel {
+    &__slides {
+      width: 100%;
     }
   }
 }
