@@ -9,6 +9,11 @@
   text-transform: uppercase;
   color: #fff;
   cursor: pointer;
+  transition: 0.5s all;
+  &:hover {
+    box-shadow: 2px 2px 15px $main-color;
+    border: none;
+  }
   &_main {
     width: 303px;
     height: 54px;
@@ -21,5 +26,10 @@
     height: 58px;
     font-weight: 500;
     font-size: 16px;
+  }
+  &_card {
+    width: 135px;
+    height: 44px;
+    font-size: 14px;
   }
 }

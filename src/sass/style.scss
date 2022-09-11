@@ -1,10 +1,12 @@
-@import "base/variables", "blocks/hero", "blocks/header", "blocks/buttons",
-  "blocks/advantages", "blocks/cta", "blocks/forms", "blocks/carousel",
-  "blocks/media";
 * {
   font-family: "Museo Sans Curl", sans-serif;
+  box-sizing: border-box;
 }
 .container {
   max-width: 950px;
   margin: 0 auto;
 }
+
+@import "base/mixins", "base/variables", "blocks/hero", "blocks/header",
+  "blocks/buttons", "blocks/advantages", "blocks/cta", "blocks/forms",
+  "blocks/carousel", "blocks/catalog", "blocks/media";
