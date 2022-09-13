@@ -14,3 +14,7 @@
   text-transform: uppercase;
   color: $main-color;
 }
+@mixin hover {
+  box-shadow: 2px 2px 15px $main-color;
+  border: none;
+}

@@ -190,4 +190,15 @@
       }
     }
   }
+  .modal {
+    width: 330px;
+    padding: 20px;
+    &__close {
+      right: 0px;
+      top: -30px;
+    }
+  }
+  .cta-form {
+    width: 270px;
+  }
 }

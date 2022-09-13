@@ -27,8 +27,7 @@
     cursor: pointer;
     transition: 0.5s all;
     &:hover {
-      box-shadow: 2px 2px 15px $main-color;
-      border: none;
+      @include hover;
     }
     div {
       transform: skewX(25deg);
