@@ -167,9 +167,27 @@
   }
   .reviews-item {
     padding: 0 20px;
-    &__review {
+    &__descr {
       font-size: 14px;
       line-height: 22px;
+    }
+  }
+  .footer {
+    &__info {
+      width: 330px;
+      height: 200px;
+      gap: 30px;
+    }
+    &__addr,
+    &__phone {
+      font-size: 18px;
+    }
+    &__social {
+      gap: 20px;
+      &-item {
+        width: 43px;
+        height: 42px;
+      }
     }
   }
 }
