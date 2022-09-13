@@ -43,6 +43,7 @@
     display: none;
     flex-wrap: wrap;
     justify-content: space-between;
+    gap: 20px;
     &_active {
       display: flex;
     }
@@ -54,7 +55,6 @@
     border: 2px solid #d0d0d0;
     padding: 20px;
     overflow: hidden;
-    margin-bottom: 20px;
     &__img {
       display: block;
       margin: 0 auto;

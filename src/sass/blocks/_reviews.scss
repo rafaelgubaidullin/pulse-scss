@@ -1,0 +1,42 @@
+.reviews {
+  min-height: 920px;
+  margin-bottom: 60px;
+  &__title {
+    @include title;
+    margin-bottom: 60px;
+  }
+  &-item {
+    padding: 0 100px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 60px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+    &__img {
+      width: 169px;
+      height: 169px;
+    }
+    &__name {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 18px;
+    }
+    &__subname {
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 22px;
+    }
+    &__review {
+      font-weight: 300;
+      font-size: 16px;
+      line-height: 24px;
+
+      span {
+        display: block;
+        margin-top: 20px;
+      }
+    }
+  }
+}
