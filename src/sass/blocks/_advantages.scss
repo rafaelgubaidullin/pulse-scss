@@ -16,6 +16,12 @@
     height: 70px;
     margin: 0 auto;
     margin-bottom: 30px;
+    &_animated {
+      animation: heartbeat 1.5s ease infinite;
+      &:hover {
+        animation-play-state: paused;
+      }
+    }
   }
   &__item-text {
     width: 275px;

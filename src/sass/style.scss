@@ -7,7 +7,9 @@
   margin: 0 auto;
 }
 
-@import "base/mixins", "base/variables", "blocks/hero", "blocks/header",
-  "blocks/buttons", "blocks/advantages", "blocks/cta", "blocks/forms",
-  "blocks/carousel", "blocks/catalog", "blocks/reviews", "blocks/footer",
-  "blocks/overlay", "blocks/pageup", "blocks/media";
+@import "base/mixins", "base/variables", "base/animations";
+
+@import "blocks/hero", "blocks/header", "blocks/buttons", "blocks/advantages",
+  "blocks/cta", "blocks/forms", "blocks/carousel", "blocks/catalog",
+  "blocks/reviews", "blocks/footer", "blocks/overlay", "blocks/pageup",
+  "blocks/media";
