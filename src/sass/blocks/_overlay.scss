@@ -39,6 +39,13 @@
   &_thanks {
     min-height: 140px;
   }
+  .error {
+    border: 1px solid $main-color;
+  }
+  label.error {
+    border: none;
+    margin-bottom: 15px;
+  }
 }
 #consultation,
 #order,
