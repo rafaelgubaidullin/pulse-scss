@@ -80,6 +80,7 @@
       @include link;
       margin-bottom: 20px;
     }
+
     hr {
       background: #e8e8e8;
       border-bottom: none;
@@ -117,12 +118,14 @@
     &__list {
       position: relative;
       width: 50%;
-      padding-left: 25px;
-      padding-right: 10px;
-
       transform: translateX(0%);
       transition: 0.5s all;
-      list-style-type: none;
+      margin-bottom: 20px;
+      ul {
+        padding-left: 25px;
+        padding-right: 10px;
+        list-style-type: none;
+      }
       li {
         position: relative;
         font-weight: 300;
